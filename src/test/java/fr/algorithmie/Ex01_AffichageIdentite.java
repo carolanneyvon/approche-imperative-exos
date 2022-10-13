@@ -27,7 +27,7 @@ public class Ex01_AffichageIdentite {
 		
 		// TODO Exemple : 
 		for (int i=1; i<=10; i++) {
-			Resultat.log("Coucou");
+			Resultat.log("Coucou tout le monde");
 		}
 	}
 

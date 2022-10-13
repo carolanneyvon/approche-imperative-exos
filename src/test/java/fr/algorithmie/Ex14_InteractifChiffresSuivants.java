@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 import outils.Exercice;
 import outils.ExerciceRunner;
 import outils.Question;
+import outils.Resultat;
 
 /**
  * Ne modifiez ni les noms des classes, ni les noms des méthodes.
@@ -40,7 +41,11 @@ public class Ex14_InteractifChiffresSuivants {
 		// TODO Ecrire un algo qui demande un nombre à l’utilisateur 
 		// puis qui LOGUE les 10 nombres suivants. 
 		// Par exemple si l’utilisateur saisit 5, le programme LOGUE 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.
-		
+		System.out.println("Les 10 nombres suivants sont : ");
+		for(int i = 0; i < 10; i++) {
+			nb = nb + 1;
+			Resultat.log(nb);
+		}
 		
 		scanner.close();
 	}

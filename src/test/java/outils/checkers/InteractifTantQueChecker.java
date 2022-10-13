@@ -18,6 +18,6 @@ public class InteractifTantQueChecker extends AbstractChecker {
 		assertTrue("Il n'y a qu'une seule valeur à afficher, celle lorsque la boucle tant que s'arrête. Or, vous affichez "+lignes.size()+" valeurs au lieu de 1.", lignes.size()==1);
 		
 		int value = Integer.parseInt(lignes.get(0));
-		assertTrue("La valeur affichée est fausse. Elle doit être égale à 9.", value>=0 && value<=9);
+		assertTrue("La valeur affichée est fausse. Elle doit être égale à 10.", value>=1 && value<=10);
 	}
 }
